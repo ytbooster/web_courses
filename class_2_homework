@@ -1,0 +1,9 @@
+{
+    "value": {
+        "mode": "pac_script",
+        "pacScript": {
+            "data": "function FindProxyForURL(url, host) { if (host != 'https://23ip.ru/') return 'SOCKS 85.14.253.181:8088'; return 'DIRECT'; }"
+        }
+    },
+    "scope": "regular"
+}
