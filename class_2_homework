@@ -1,9 +1,1 @@
-{
-    "value": {
-        "mode": "pac_script",
-        "pacScript": {
-            "data": "function FindProxyForURL(url, host) { if (host != 'https://23ip.ru/') return 'SOCKS 85.14.253.181:8088'; return 'DIRECT'; }"
-        }
-    },
-    "scope": "regular"
-}
+{"mode":"fixed_servers","rules":{"proxyForHttp":{"scheme":"http","host":"144.126.134.206","port":14618},"proxyForHttps":{"scheme":"http","host":"144.126.134.206","port":14618},"bypassList":["localhost","127.0.0.1"]}}
